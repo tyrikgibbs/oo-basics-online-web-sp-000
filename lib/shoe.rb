@@ -4,6 +4,9 @@ class Shoe
     @brand = brand
   end
 
+attr_accessor :color
+  
+
   def cobble
     puts "Your shoe is as good as new!"
   end
